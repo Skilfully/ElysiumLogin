@@ -1,0 +1,41 @@
+name: ElysiumLogin
+version: '${project.version}'
+main: org.xyit.elysiumlogin.ElysiumLogin
+api-version: '1.17'
+outhor: Cibocaz
+commands:
+    elysiumLogin:
+      description: "查看插件信息"
+      usage: /elysiumlogin
+      permission: elysiumLogin.command.elysiumLogin
+      permission-message: "§c你没有权限这样做！"
+    elysiumLogin reload:
+      description: "重新加载插件"
+      usage: /elysiumlogin reload
+      permission: elysiumLogin.command.reload
+      permission-message: "§c你没有权限这样做！"
+    elysiumLogin info:
+      description: "查看插件信息"
+      usage: /elysiumlogin info
+      permission: elysiumLogin.command.info
+      permission-message: "§c你没有权限这样做！"
+    l:
+      description: "登录"
+      usage: "/l <密码>"
+      permission: elysiumlogin.command.l
+      permission-message: "§c你没有权限这样做！"
+    login:
+      description: "登录"
+      usage: "/login <密码>"
+      permission: elysiumlogin.command.login
+      permission-message: "§c你没有权限这样做！"
+    elysiumlogin help:
+      description: "获取插件帮助信息"
+      usage: "/elysiumlogin help"
+      permission: elysiumlogin.command.help
+      permission-message: "§c你没有权限这样做！"
+    exit:
+      description: "退出登入"
+      usage: "/exit"
+      permission: elysiumlogin.command.exit
+      permission-message: "§c你没有权限这样做！"
